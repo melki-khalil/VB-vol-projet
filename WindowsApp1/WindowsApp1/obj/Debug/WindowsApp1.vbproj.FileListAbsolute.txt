@@ -10,3 +10,6 @@ C:\Users\ranar\Documents\2IG\VB-vol-projet\WindowsApp1\WindowsApp1\obj\Debug\Win
 C:\Users\ranar\Documents\2IG\VB-vol-projet\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.exe
 C:\Users\ranar\Documents\2IG\VB-vol-projet\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.xml
 C:\Users\ranar\Documents\2IG\VB-vol-projet\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.pdb
+C:\Users\ranar\Documents\2IG\VB-vol-projet\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.Form2widget.resources
+C:\Users\ranar\Documents\2IG\VB-vol-projet\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.Form3signin.resources
+C:\Users\ranar\Documents\2IG\VB-vol-projet\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.Form4make_account.resources

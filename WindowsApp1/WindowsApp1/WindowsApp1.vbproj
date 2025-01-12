@@ -73,17 +73,29 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Form4make_account.Designer.vb">
+      <DependentUpon>Form4make_account.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form4make_account.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3signin.Designer.vb">
+      <DependentUpon>Form3signin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form3signin.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form2widget.Designer.vb">
       <DependentUpon>Form2widget.vb</DependentUpon>
     </Compile>
     <Compile Include="Form2widget.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1main.vb">
+    <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1main.Designer.vb">
-      <DependentUpon>Form1main.vb</DependentUpon>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -103,11 +115,17 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Form1main.resx">
-      <DependentUpon>Form1main.vb</DependentUpon>
+    <EmbeddedResource Include="Form3signin.resx">
+      <DependentUpon>Form3signin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form2widget.resx">
       <DependentUpon>Form2widget.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4make_account.resx">
+      <DependentUpon>Form4make_account.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

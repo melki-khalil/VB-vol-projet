@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form1main
+Partial Class Form1
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -31,6 +31,7 @@ Partial Class Form1main
         Me.LoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.VolsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ContextMenuStrip1 = New System.Windows.Forms.ContextMenuStrip(Me.components)
+        Me.Panel1 = New System.Windows.Forms.Panel()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -40,7 +41,8 @@ Partial Class Form1main
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AccuileToolStripMenuItem, Me.ManCompteToolStripMenuItem, Me.VolsToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(800, 28)
+        Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(5, 2, 0, 2)
+        Me.MenuStrip1.Size = New System.Drawing.Size(889, 28)
         Me.MenuStrip1.TabIndex = 0
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -60,19 +62,19 @@ Partial Class Form1main
         'ProfileToolStripMenuItem
         '
         Me.ProfileToolStripMenuItem.Name = "ProfileToolStripMenuItem"
-        Me.ProfileToolStripMenuItem.Size = New System.Drawing.Size(166, 26)
+        Me.ProfileToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
         Me.ProfileToolStripMenuItem.Text = "profile"
         '
         'MonBilleToolStripMenuItem
         '
         Me.MonBilleToolStripMenuItem.Name = "MonBilleToolStripMenuItem"
-        Me.MonBilleToolStripMenuItem.Size = New System.Drawing.Size(166, 26)
+        Me.MonBilleToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
         Me.MonBilleToolStripMenuItem.Text = "mon bille"
         '
         'LoToolStripMenuItem
         '
         Me.LoToolStripMenuItem.Name = "LoToolStripMenuItem"
-        Me.LoToolStripMenuItem.Size = New System.Drawing.Size(166, 26)
+        Me.LoToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
         Me.LoToolStripMenuItem.Text = "deconncter"
         '
         'VolsToolStripMenuItem
@@ -87,14 +89,24 @@ Partial Class Form1main
         Me.ContextMenuStrip1.Name = "ContextMenuStrip1"
         Me.ContextMenuStrip1.Size = New System.Drawing.Size(61, 4)
         '
-        'Form1main
+        'Panel1
+        '
+        Me.Panel1.Location = New System.Drawing.Point(0, 39)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(889, 461)
+        Me.Panel1.TabIndex = 1
+        '
+        'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(889, 500)
+        Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.MenuStrip1)
         Me.MainMenuStrip = Me.MenuStrip1
-        Me.Name = "Form1main"
+        Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.Name = "Form1"
         Me.Text = "Form1"
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
@@ -111,4 +123,5 @@ Partial Class Form1main
     Friend WithEvents VolsToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ContextMenuStrip1 As ContextMenuStrip
     Friend WithEvents LoToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents Panel1 As Panel
 End Class

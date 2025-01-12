@@ -1,86 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\ranar\\Documents\\2IG\\VB-vol-projet\\WindowsApp1\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{E126F98B-0AEC-4A4C-B415-D0667F8590C4}|WindowsApp1\\WindowsApp1.vbproj|c:\\users\\ranar\\documents\\2ig\\vb-vol-projet\\windowsapp1\\windowsapp1\\form2widget.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{E126F98B-0AEC-4A4C-B415-D0667F8590C4}|WindowsApp1\\WindowsApp1.vbproj|solutionrelative:windowsapp1\\form2widget.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E126F98B-0AEC-4A4C-B415-D0667F8590C4}|WindowsApp1\\WindowsApp1.vbproj|c:\\users\\ranar\\documents\\2ig\\vb-vol-projet\\windowsapp1\\windowsapp1\\form1main.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{E126F98B-0AEC-4A4C-B415-D0667F8590C4}|WindowsApp1\\WindowsApp1.vbproj|solutionrelative:windowsapp1\\form1main.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E126F98B-0AEC-4A4C-B415-D0667F8590C4}|WindowsApp1\\WindowsApp1.vbproj|c:\\users\\ranar\\documents\\2ig\\vb-vol-projet\\windowsapp1\\windowsapp1\\form2widget.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{E126F98B-0AEC-4A4C-B415-D0667F8590C4}|WindowsApp1\\WindowsApp1.vbproj|solutionrelative:windowsapp1\\form2widget.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E126F98B-0AEC-4A4C-B415-D0667F8590C4}|WindowsApp1\\WindowsApp1.vbproj|c:\\users\\ranar\\documents\\2ig\\vb-vol-projet\\windowsapp1\\windowsapp1\\form1main.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{E126F98B-0AEC-4A4C-B415-D0667F8590C4}|WindowsApp1\\WindowsApp1.vbproj|solutionrelative:windowsapp1\\form1main.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 1,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form2widget.vb",
-              "DocumentMoniker": "C:\\Users\\ranar\\Documents\\2IG\\VB-vol-projet\\WindowsApp1\\WindowsApp1\\Form2widget.vb",
-              "RelativeDocumentMoniker": "WindowsApp1\\Form2widget.vb",
-              "ToolTip": "C:\\Users\\ranar\\Documents\\2IG\\VB-vol-projet\\WindowsApp1\\WindowsApp1\\Form2widget.vb",
-              "RelativeToolTip": "WindowsApp1\\Form2widget.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-01-12T01:12:43.231Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form2widget.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\ranar\\Documents\\2IG\\VB-vol-projet\\WindowsApp1\\WindowsApp1\\Form2widget.vb",
-              "RelativeDocumentMoniker": "WindowsApp1\\Form2widget.vb",
-              "ToolTip": "C:\\Users\\ranar\\Documents\\2IG\\VB-vol-projet\\WindowsApp1\\WindowsApp1\\Form2widget.vb [Design]",
-              "RelativeToolTip": "WindowsApp1\\Form2widget.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-01-12T01:10:49.874Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form1main.vb",
-              "DocumentMoniker": "C:\\Users\\ranar\\Documents\\2IG\\VB-vol-projet\\WindowsApp1\\WindowsApp1\\Form1main.vb",
-              "RelativeDocumentMoniker": "WindowsApp1\\Form1main.vb",
-              "ToolTip": "C:\\Users\\ranar\\Documents\\2IG\\VB-vol-projet\\WindowsApp1\\WindowsApp1\\Form1main.vb",
-              "RelativeToolTip": "WindowsApp1\\Form1main.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-01-12T01:02:17.369Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1main.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\ranar\\Documents\\2IG\\VB-vol-projet\\WindowsApp1\\WindowsApp1\\Form1main.vb",
-              "RelativeDocumentMoniker": "WindowsApp1\\Form1main.vb",
-              "ToolTip": "C:\\Users\\ranar\\Documents\\2IG\\VB-vol-projet\\WindowsApp1\\WindowsApp1\\Form1main.vb [Design]",
-              "RelativeToolTip": "WindowsApp1\\Form1main.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-01-12T01:02:07.053Z",
-              "EditorCaption": " [Design]"
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }
