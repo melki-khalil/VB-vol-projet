@@ -15,6 +15,8 @@ Public Class Form1
         Dim destination As String
         Dim temp As DateTime
     End Structure
+
+    Dim user As utilisateur
     Public Sub Placepage(app As Form)
         Panel1.Controls.Clear()
         app.TopLevel = False
@@ -25,7 +27,15 @@ Public Class Form1
     End Sub
 
     Private Sub Form1main_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+        If user.email = "" Then
+            ProfileToolStripMenuItem.Visible = False
+            MonBilleToolStripMenuItem.Visible = False
+            LoToolStripMenuItem.Visible = False
+        Else
+            ProfileToolStripMenuItem.Visible = True
+            MonBilleToolStripMenuItem.Visible = True
+            LoToolStripMenuItem.Visible = True
+        End If
         Placepage(Form2widget)
     End Sub
 
@@ -37,6 +47,11 @@ Public Class Form1
 
 
     Private Sub ManCompteToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ManCompteToolStripMenuItem.Click
-        Placepage(Form3signin)
+        If user.email = "" Then
+            Placepage(profile)
+        Else
+            Placepage(Form3signin)
+        End If
+
     End Sub
 End Class
