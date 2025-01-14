@@ -47,3 +47,5 @@ C:\Users\ranar\Documents\2IG\VB-vol-projet\WindowsApp1\WindowsApp1\bin\Debug\Sys
 C:\Users\ranar\Documents\2IG\VB-vol-projet\WindowsApp1\WindowsApp1\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\ranar\Documents\2IG\VB-vol-projet\WindowsApp1\WindowsApp1\obj\Debug\WindowsA.0BF81A2F.Up2Date
 C:\Users\ranar\Documents\2IG\VB-vol-projet\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.Userprofile.resources
+C:\Users\ranar\Documents\2IG\VB-vol-projet\WindowsApp1\WindowsApp1\bin\Debug\aeroport.accdb
+C:\Users\ranar\Documents\2IG\VB-vol-projet\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.reserve.resources

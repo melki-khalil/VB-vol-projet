@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class Userprofile
+Partial Class UserProfile
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -23,10 +23,10 @@ Partial Class Userprofile
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.nom = New System.Windows.Forms.Label()
-        Me.prenom = New System.Windows.Forms.Label()
-        Me.mail = New System.Windows.Forms.Label()
         Me.edit = New System.Windows.Forms.Button()
+        Me.mail = New System.Windows.Forms.Label()
+        Me.prenom = New System.Windows.Forms.Label()
+        Me.nom = New System.Windows.Forms.Label()
         Me.DGV = New System.Windows.Forms.DataGridView()
         Me.ticketID = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.volID = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -49,26 +49,14 @@ Partial Class Userprofile
         Me.Panel1.Size = New System.Drawing.Size(266, 458)
         Me.Panel1.TabIndex = 0
         '
-        'nom
+        'edit
         '
-        Me.nom.AutoSize = True
-        Me.nom.BackColor = System.Drawing.Color.LightGray
-        Me.nom.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.nom.Location = New System.Drawing.Point(11, 29)
-        Me.nom.Name = "nom"
-        Me.nom.Size = New System.Drawing.Size(53, 25)
-        Me.nom.TabIndex = 0
-        Me.nom.Text = "nom"
-        '
-        'prenom
-        '
-        Me.prenom.AutoSize = True
-        Me.prenom.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.prenom.Location = New System.Drawing.Point(28, 58)
-        Me.prenom.Name = "prenom"
-        Me.prenom.Size = New System.Drawing.Size(84, 25)
-        Me.prenom.TabIndex = 1
-        Me.prenom.Text = "prenom"
+        Me.edit.Location = New System.Drawing.Point(179, 405)
+        Me.edit.Name = "edit"
+        Me.edit.Size = New System.Drawing.Size(62, 33)
+        Me.edit.TabIndex = 3
+        Me.edit.Text = "changer ton donné"
+        Me.edit.UseVisualStyleBackColor = True
         '
         'mail
         '
@@ -81,20 +69,32 @@ Partial Class Userprofile
         Me.mail.TabIndex = 2
         Me.mail.Text = "Email"
         '
-        'edit
+        'prenom
         '
-        Me.edit.Location = New System.Drawing.Point(179, 405)
-        Me.edit.Name = "edit"
-        Me.edit.Size = New System.Drawing.Size(62, 33)
-        Me.edit.TabIndex = 3
-        Me.edit.Text = "changer ton donné"
-        Me.edit.UseVisualStyleBackColor = True
+        Me.prenom.AutoSize = True
+        Me.prenom.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.prenom.Location = New System.Drawing.Point(28, 58)
+        Me.prenom.Name = "prenom"
+        Me.prenom.Size = New System.Drawing.Size(84, 25)
+        Me.prenom.TabIndex = 1
+        Me.prenom.Text = "prenom"
+        '
+        'nom
+        '
+        Me.nom.AutoSize = True
+        Me.nom.BackColor = System.Drawing.Color.LightGray
+        Me.nom.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.nom.Location = New System.Drawing.Point(11, 29)
+        Me.nom.Name = "nom"
+        Me.nom.Size = New System.Drawing.Size(53, 25)
+        Me.nom.TabIndex = 0
+        Me.nom.Text = "nom"
         '
         'DGV
         '
         Me.DGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DGV.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.ticketID, Me.volID, Me.Client, Me.distination, Me.time})
-        Me.DGV.Location = New System.Drawing.Point(263, 58)
+        Me.DGV.Location = New System.Drawing.Point(273, 41)
         Me.DGV.Name = "DGV"
         Me.DGV.RowHeadersWidth = 51
         Me.DGV.RowTemplate.Height = 24
@@ -136,14 +136,14 @@ Partial Class Userprofile
         Me.time.Name = "time"
         Me.time.Width = 125
         '
-        'Userprofile
+        'UserProfile
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1119, 492)
         Me.Controls.Add(Me.DGV)
         Me.Controls.Add(Me.Panel1)
-        Me.Name = "Userprofile"
+        Me.Name = "UserProfile"
         Me.Text = "User profile"
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
