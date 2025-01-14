@@ -16,6 +16,21 @@ Public Class Form1
         Dim temp As DateTime
     End Structure
 
+    'function section
+    'Vérifiez si la chaîne d'entrée contient uniquement des lettres
+    Function IsOnlyLetters(input As String) As Boolean
+        Dim letters As String = "^[A-Za-z]+$"
+        Return input.All(Function(c) Char.IsLetter(c))
+    End Function
+
+    ' Vérifie si la chaîne d'entrée est une adresse e-mail valide
+    Function IsValidEmail(email As String) As Boolean
+        Dim emailPattern As String = "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
+        Return System.Text.RegularExpressions.Regex.IsMatch(email, emailPattern)
+    End Function
+
+    'end of the function section
+
     Dim user As utilisateur
     Public Sub Placepage(app As Form)
         Panel1.Controls.Clear()
@@ -48,7 +63,7 @@ Public Class Form1
 
     Private Sub ManCompteToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ManCompteToolStripMenuItem.Click
         If user.email = "" Then
-            Placepage(profile)
+            Placepage(Form3signin)
         Else
             Placepage(Form3signin)
         End If
