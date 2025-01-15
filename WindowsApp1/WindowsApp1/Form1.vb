@@ -98,10 +98,12 @@ Public Class Form1
 
     Private Sub LoToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles LoToolStripMenuItem.Click
         user1 = Nothing
+        Placepage(Form2widget)
     End Sub
 
     Private Sub VolsToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles VolsToolStripMenuItem.Click
         Placepage(TicketBuying)
+
     End Sub
 End Class
 
