@@ -3,40 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\ranar\\Documents\\2IG\\VB-vol-projet\\WindowsApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E126F98B-0AEC-4A4C-B415-D0667F8590C4}|WindowsApp1\\WindowsApp1.vbproj|c:\\users\\ranar\\documents\\2ig\\vb-vol-projet\\windowsapp1\\windowsapp1\\userticket.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{E126F98B-0AEC-4A4C-B415-D0667F8590C4}|WindowsApp1\\WindowsApp1.vbproj|solutionrelative:windowsapp1\\userticket.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E126F98B-0AEC-4A4C-B415-D0667F8590C4}|WindowsApp1\\WindowsApp1.vbproj|c:\\users\\ranar\\documents\\2ig\\vb-vol-projet\\windowsapp1\\windowsapp1\\userticket.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{E126F98B-0AEC-4A4C-B415-D0667F8590C4}|WindowsApp1\\WindowsApp1.vbproj|solutionrelative:windowsapp1\\userticket.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E126F98B-0AEC-4A4C-B415-D0667F8590C4}|WindowsApp1\\WindowsApp1.vbproj|c:\\users\\ranar\\documents\\2ig\\vb-vol-projet\\windowsapp1\\windowsapp1\\form2widget.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{E126F98B-0AEC-4A4C-B415-D0667F8590C4}|WindowsApp1\\WindowsApp1.vbproj|solutionrelative:windowsapp1\\form2widget.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E126F98B-0AEC-4A4C-B415-D0667F8590C4}|WindowsApp1\\WindowsApp1.vbproj|C:\\Users\\ranar\\Documents\\2IG\\VB-vol-projet\\WindowsApp1\\windowsapp1\\form3signin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{E126F98B-0AEC-4A4C-B415-D0667F8590C4}|WindowsApp1\\WindowsApp1.vbproj|solutionrelative:windowsapp1\\form3signin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E126F98B-0AEC-4A4C-B415-D0667F8590C4}|WindowsApp1\\WindowsApp1.vbproj|C:\\Users\\ranar\\Documents\\2IG\\VB-vol-projet\\WindowsApp1\\windowsapp1\\form3signin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{E126F98B-0AEC-4A4C-B415-D0667F8590C4}|WindowsApp1\\WindowsApp1.vbproj|solutionrelative:windowsapp1\\form3signin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E126F98B-0AEC-4A4C-B415-D0667F8590C4}|WindowsApp1\\WindowsApp1.vbproj|C:\\Users\\ranar\\Documents\\2IG\\VB-vol-projet\\WindowsApp1\\windowsapp1\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "AbsoluteMoniker": "D:0:0:{E126F98B-0AEC-4A4C-B415-D0667F8590C4}|WindowsApp1\\WindowsApp1.vbproj|c:\\users\\ranar\\documents\\2ig\\vb-vol-projet\\windowsapp1\\windowsapp1\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{E126F98B-0AEC-4A4C-B415-D0667F8590C4}|WindowsApp1\\WindowsApp1.vbproj|solutionrelative:windowsapp1\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E126F98B-0AEC-4A4C-B415-D0667F8590C4}|WindowsApp1\\WindowsApp1.vbproj|C:\\Users\\ranar\\Documents\\2IG\\VB-vol-projet\\WindowsApp1\\windowsapp1\\form2widget.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{E126F98B-0AEC-4A4C-B415-D0667F8590C4}|WindowsApp1\\WindowsApp1.vbproj|solutionrelative:windowsapp1\\form2widget.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+      "AbsoluteMoniker": "D:0:0:{E126F98B-0AEC-4A4C-B415-D0667F8590C4}|WindowsApp1\\WindowsApp1.vbproj|C:\\Users\\ranar\\Documents\\2IG\\VB-vol-projet\\WindowsApp1\\windowsapp1\\form4make_account.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{E126F98B-0AEC-4A4C-B415-D0667F8590C4}|WindowsApp1\\WindowsApp1.vbproj|solutionrelative:windowsapp1\\form4make_account.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E126F98B-0AEC-4A4C-B415-D0667F8590C4}|WindowsApp1\\WindowsApp1.vbproj|C:\\Users\\ranar\\Documents\\2IG\\VB-vol-projet\\WindowsApp1\\windowsapp1\\userprofile.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{E126F98B-0AEC-4A4C-B415-D0667F8590C4}|WindowsApp1\\WindowsApp1.vbproj|solutionrelative:windowsapp1\\userprofile.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{E126F98B-0AEC-4A4C-B415-D0667F8590C4}|WindowsApp1\\WindowsApp1.vbproj|c:\\users\\ranar\\documents\\2ig\\vb-vol-projet\\windowsapp1\\windowsapp1\\volcreationvb.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{E126F98B-0AEC-4A4C-B415-D0667F8590C4}|WindowsApp1\\WindowsApp1.vbproj|solutionrelative:windowsapp1\\volcreationvb.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E126F98B-0AEC-4A4C-B415-D0667F8590C4}|WindowsApp1\\WindowsApp1.vbproj|C:\\Users\\ranar\\Documents\\2IG\\VB-vol-projet\\WindowsApp1\\windowsapp1\\userprofile.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{E126F98B-0AEC-4A4C-B415-D0667F8590C4}|WindowsApp1\\WindowsApp1.vbproj|solutionrelative:windowsapp1\\userprofile.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+      "AbsoluteMoniker": "D:0:0:{E126F98B-0AEC-4A4C-B415-D0667F8590C4}|WindowsApp1\\WindowsApp1.vbproj|c:\\users\\ranar\\documents\\2ig\\vb-vol-projet\\windowsapp1\\windowsapp1\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{E126F98B-0AEC-4A4C-B415-D0667F8590C4}|WindowsApp1\\WindowsApp1.vbproj|solutionrelative:windowsapp1\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E126F98B-0AEC-4A4C-B415-D0667F8590C4}|WindowsApp1\\WindowsApp1.vbproj|C:\\Users\\ranar\\Documents\\2IG\\VB-vol-projet\\WindowsApp1\\windowsapp1\\form4make_account.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{E126F98B-0AEC-4A4C-B415-D0667F8590C4}|WindowsApp1\\WindowsApp1.vbproj|solutionrelative:windowsapp1\\form4make_account.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -51,113 +35,64 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UserTicket.vb",
-              "DocumentMoniker": "C:\\Users\\ranar\\Documents\\2IG\\VB-vol-projet\\WindowsApp1\\WindowsApp1\\UserTicket.vb",
-              "RelativeDocumentMoniker": "WindowsApp1\\UserTicket.vb",
-              "ToolTip": "C:\\Users\\ranar\\Documents\\2IG\\VB-vol-projet\\WindowsApp1\\WindowsApp1\\UserTicket.vb",
-              "RelativeToolTip": "WindowsApp1\\UserTicket.vb",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwAoAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-01-15T18:40:17.597Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserTicket.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\ranar\\Documents\\2IG\\VB-vol-projet\\WindowsApp1\\WindowsApp1\\UserTicket.vb",
-              "RelativeDocumentMoniker": "WindowsApp1\\UserTicket.vb",
-              "ToolTip": "C:\\Users\\ranar\\Documents\\2IG\\VB-vol-projet\\WindowsApp1\\WindowsApp1\\UserTicket.vb [Design]",
-              "RelativeToolTip": "WindowsApp1\\UserTicket.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-01-15T18:40:16.156Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Form3signin.vb",
-              "DocumentMoniker": "C:\\Users\\ranar\\Documents\\2IG\\VB-vol-projet\\WindowsApp1\\WindowsApp1\\Form3signin.vb",
-              "RelativeDocumentMoniker": "WindowsApp1\\Form3signin.vb",
-              "ToolTip": "C:\\Users\\ranar\\Documents\\2IG\\VB-vol-projet\\WindowsApp1\\WindowsApp1\\Form3signin.vb",
-              "RelativeToolTip": "WindowsApp1\\Form3signin.vb",
-              "ViewState": "AgIAABMAAAAAAAAAAAAYwCMAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-01-15T17:16:37.37Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form3signin.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\ranar\\Documents\\2IG\\VB-vol-projet\\WindowsApp1\\WindowsApp1\\Form3signin.vb",
-              "RelativeDocumentMoniker": "WindowsApp1\\Form3signin.vb",
-              "ToolTip": "C:\\Users\\ranar\\Documents\\2IG\\VB-vol-projet\\WindowsApp1\\WindowsApp1\\Form3signin.vb [Design]",
-              "RelativeToolTip": "WindowsApp1\\Form3signin.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-01-15T17:16:36.047Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Form2widget.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\ranar\\Documents\\2IG\\VB-vol-projet\\WindowsApp1\\WindowsApp1\\Form2widget.vb",
-              "RelativeDocumentMoniker": "WindowsApp1\\Form2widget.vb",
-              "ToolTip": "C:\\Users\\ranar\\Documents\\2IG\\VB-vol-projet\\WindowsApp1\\WindowsApp1\\Form2widget.vb [Design]",
-              "RelativeToolTip": "WindowsApp1\\Form2widget.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-01-15T17:13:42.237Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form2widget.vb",
-              "DocumentMoniker": "C:\\Users\\ranar\\Documents\\2IG\\VB-vol-projet\\WindowsApp1\\WindowsApp1\\Form2widget.vb",
-              "RelativeDocumentMoniker": "WindowsApp1\\Form2widget.vb",
-              "ToolTip": "C:\\Users\\ranar\\Documents\\2IG\\VB-vol-projet\\WindowsApp1\\WindowsApp1\\Form2widget.vb",
-              "RelativeToolTip": "WindowsApp1\\Form2widget.vb",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAuwA4AAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-01-15T17:14:21.202Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Userprofile.vb",
-              "DocumentMoniker": "C:\\Users\\ranar\\Documents\\2IG\\VB-vol-projet\\WindowsApp1\\WindowsApp1\\Userprofile.vb",
-              "RelativeDocumentMoniker": "WindowsApp1\\Userprofile.vb",
-              "ToolTip": "C:\\Users\\ranar\\Documents\\2IG\\VB-vol-projet\\WindowsApp1\\WindowsApp1\\Userprofile.vb",
-              "RelativeToolTip": "WindowsApp1\\Userprofile.vb",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAiwAoAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-01-15T17:01:35.084Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "Form1.vb",
               "DocumentMoniker": "C:\\Users\\ranar\\Documents\\2IG\\VB-vol-projet\\WindowsApp1\\WindowsApp1\\Form1.vb",
               "RelativeDocumentMoniker": "WindowsApp1\\Form1.vb",
               "ToolTip": "C:\\Users\\ranar\\Documents\\2IG\\VB-vol-projet\\WindowsApp1\\WindowsApp1\\Form1.vb",
               "RelativeToolTip": "WindowsApp1\\Form1.vb",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAAAGcAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAIwA8AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-01-15T16:54:36.693Z",
+              "WhenOpened": "2025-01-15T19:01:08.351Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Userprofile.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\ranar\\Documents\\2IG\\VB-vol-projet\\WindowsApp1\\WindowsApp1\\Userprofile.vb",
-              "RelativeDocumentMoniker": "WindowsApp1\\Userprofile.vb",
-              "ToolTip": "C:\\Users\\ranar\\Documents\\2IG\\VB-vol-projet\\WindowsApp1\\WindowsApp1\\Userprofile.vb [Design]",
-              "RelativeToolTip": "WindowsApp1\\Userprofile.vb [Design]",
+              "DocumentIndex": 3,
+              "Title": "Form1.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\ranar\\Documents\\2IG\\VB-vol-projet\\WindowsApp1\\WindowsApp1\\Form1.vb",
+              "RelativeDocumentMoniker": "WindowsApp1\\Form1.vb",
+              "ToolTip": "C:\\Users\\ranar\\Documents\\2IG\\VB-vol-projet\\WindowsApp1\\WindowsApp1\\Form1.vb [Design]",
+              "RelativeToolTip": "WindowsApp1\\Form1.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-01-15T17:01:28.227Z",
+              "WhenOpened": "2025-01-15T19:01:07.059Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VolCreationvb.vb",
+              "DocumentMoniker": "C:\\Users\\ranar\\Documents\\2IG\\VB-vol-projet\\WindowsApp1\\WindowsApp1\\VolCreationvb.vb",
+              "RelativeDocumentMoniker": "WindowsApp1\\VolCreationvb.vb",
+              "ToolTip": "C:\\Users\\ranar\\Documents\\2IG\\VB-vol-projet\\WindowsApp1\\WindowsApp1\\VolCreationvb.vb",
+              "RelativeToolTip": "WindowsApp1\\VolCreationvb.vb",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAEIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-01-15T18:54:03.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form4make_account.vb",
+              "DocumentMoniker": "C:\\Users\\ranar\\Documents\\2IG\\VB-vol-projet\\WindowsApp1\\WindowsApp1\\Form4make_account.vb",
+              "RelativeDocumentMoniker": "WindowsApp1\\Form4make_account.vb",
+              "ToolTip": "C:\\Users\\ranar\\Documents\\2IG\\VB-vol-projet\\WindowsApp1\\WindowsApp1\\Form4make_account.vb",
+              "RelativeToolTip": "WindowsApp1\\Form4make_account.vb",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAFUAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-01-15T18:52:40.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form4make_account.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\ranar\\Documents\\2IG\\VB-vol-projet\\WindowsApp1\\WindowsApp1\\Form4make_account.vb",
+              "RelativeDocumentMoniker": "WindowsApp1\\Form4make_account.vb",
+              "ToolTip": "C:\\Users\\ranar\\Documents\\2IG\\VB-vol-projet\\WindowsApp1\\WindowsApp1\\Form4make_account.vb [Design]",
+              "RelativeToolTip": "WindowsApp1\\Form4make_account.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-01-15T18:52:37.76Z",
               "EditorCaption": " [Design]"
             }
           ]

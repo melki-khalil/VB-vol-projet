@@ -15,7 +15,7 @@ Public Class Form1
 
     End Structure
     <Serializable> Public Structure vol
-        Dim vol_id As Integer
+        Dim vol_id As String
 
         Dim depart As String
         Dim destination As String
@@ -67,13 +67,7 @@ Public Class Form1
     End Sub
 
     Private Sub Form1main_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Dim filePath As String = "vol.bin"
 
-
-        Using fileStream As New FileStream(filePath, FileMode.Open)
-            Dim formatter As New BinaryFormatter()
-
-        End Using
 
         Dim filePath3 As String = "buille.bin"
         Using fileStream As New FileStream(filePath3, FileMode.Open)

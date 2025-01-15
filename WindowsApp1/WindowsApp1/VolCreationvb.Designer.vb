@@ -23,14 +23,14 @@ Partial Class VolCreationvb
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.ID = New System.Windows.Forms.TextBox()
+        Me.nb = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.dist = New System.Windows.Forms.TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.Depart = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
+        Me.prix = New System.Windows.Forms.TextBox()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.add = New System.Windows.Forms.Button()
         Me.SuspendLayout()
@@ -45,21 +45,21 @@ Partial Class VolCreationvb
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "vol ID"
         '
-        'TextBox1
+        'ID
         '
-        Me.TextBox1.Font = New System.Drawing.Font("Microsoft YaHei UI", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(141, 47)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(225, 30)
-        Me.TextBox1.TabIndex = 1
+        Me.ID.Font = New System.Drawing.Font("Microsoft YaHei UI", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ID.Location = New System.Drawing.Point(141, 47)
+        Me.ID.Name = "ID"
+        Me.ID.Size = New System.Drawing.Size(225, 30)
+        Me.ID.TabIndex = 1
         '
-        'TextBox2
+        'nb
         '
-        Me.TextBox2.Font = New System.Drawing.Font("Microsoft YaHei UI", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox2.Location = New System.Drawing.Point(141, 220)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(225, 30)
-        Me.TextBox2.TabIndex = 3
+        Me.nb.Font = New System.Drawing.Font("Microsoft YaHei UI", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.nb.Location = New System.Drawing.Point(141, 220)
+        Me.nb.Name = "nb"
+        Me.nb.Size = New System.Drawing.Size(225, 30)
+        Me.nb.TabIndex = 3
         '
         'Label2
         '
@@ -71,13 +71,13 @@ Partial Class VolCreationvb
         Me.Label2.TabIndex = 2
         Me.Label2.Text = "places"
         '
-        'TextBox3
+        'dist
         '
-        Me.TextBox3.Font = New System.Drawing.Font("Microsoft YaHei UI", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox3.Location = New System.Drawing.Point(141, 154)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(225, 30)
-        Me.TextBox3.TabIndex = 5
+        Me.dist.Font = New System.Drawing.Font("Microsoft YaHei UI", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.dist.Location = New System.Drawing.Point(141, 154)
+        Me.dist.Name = "dist"
+        Me.dist.Size = New System.Drawing.Size(225, 30)
+        Me.dist.TabIndex = 5
         '
         'Label3
         '
@@ -89,13 +89,13 @@ Partial Class VolCreationvb
         Me.Label3.TabIndex = 4
         Me.Label3.Text = "distination"
         '
-        'TextBox4
+        'Depart
         '
-        Me.TextBox4.Font = New System.Drawing.Font("Microsoft YaHei UI", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox4.Location = New System.Drawing.Point(141, 103)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(225, 30)
-        Me.TextBox4.TabIndex = 7
+        Me.Depart.Font = New System.Drawing.Font("Microsoft YaHei UI", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Depart.Location = New System.Drawing.Point(141, 103)
+        Me.Depart.Name = "Depart"
+        Me.Depart.Size = New System.Drawing.Size(225, 30)
+        Me.Depart.TabIndex = 7
         '
         'Label4
         '
@@ -107,13 +107,13 @@ Partial Class VolCreationvb
         Me.Label4.TabIndex = 6
         Me.Label4.Text = "depart"
         '
-        'TextBox5
+        'prix
         '
-        Me.TextBox5.Font = New System.Drawing.Font("Microsoft YaHei UI", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox5.Location = New System.Drawing.Point(141, 280)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(225, 30)
-        Me.TextBox5.TabIndex = 9
+        Me.prix.Font = New System.Drawing.Font("Microsoft YaHei UI", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.prix.Location = New System.Drawing.Point(141, 280)
+        Me.prix.Name = "prix"
+        Me.prix.Size = New System.Drawing.Size(225, 30)
+        Me.prix.TabIndex = 9
         '
         'Label5
         '
@@ -141,15 +141,15 @@ Partial Class VolCreationvb
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.add)
-        Me.Controls.Add(Me.TextBox5)
+        Me.Controls.Add(Me.prix)
         Me.Controls.Add(Me.Label5)
-        Me.Controls.Add(Me.TextBox4)
+        Me.Controls.Add(Me.Depart)
         Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.TextBox3)
+        Me.Controls.Add(Me.dist)
         Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.TextBox2)
+        Me.Controls.Add(Me.nb)
         Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.ID)
         Me.Controls.Add(Me.Label1)
         Me.Name = "VolCreationvb"
         Me.Text = "VolCreationvb"
@@ -159,14 +159,14 @@ Partial Class VolCreationvb
     End Sub
 
     Friend WithEvents Label1 As Label
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents ID As TextBox
+    Friend WithEvents nb As TextBox
     Friend WithEvents Label2 As Label
-    Friend WithEvents TextBox3 As TextBox
+    Friend WithEvents dist As TextBox
     Friend WithEvents Label3 As Label
-    Friend WithEvents TextBox4 As TextBox
+    Friend WithEvents Depart As TextBox
     Friend WithEvents Label4 As Label
-    Friend WithEvents TextBox5 As TextBox
+    Friend WithEvents prix As TextBox
     Friend WithEvents Label5 As Label
     Friend WithEvents add As Button
 End Class
