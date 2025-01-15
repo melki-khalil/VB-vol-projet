@@ -53,6 +53,7 @@ Public Class Form1
     'end of the function section
     ' public variables
     Public user1 As utilisateur
+    Public MainUser As utilisateur
 
     'end of section
     'call form method
@@ -79,13 +80,7 @@ Public Class Form1
             Dim formatter As New BinaryFormatter()
 
         End Using
-        Dim filePath2 As String = "user.bin"
-        Using fileStream As New FileStream(filePath2, FileMode.Open)
-            Dim formatter As New BinaryFormatter()
-            user1 = CType(formatter.Deserialize(fileStream), utilisateur)
 
-
-        End Using
         Dim filePath3 As String = "buille.bin"
         Using fileStream As New FileStream(filePath3, FileMode.Open)
             Dim formatter As New BinaryFormatter()
