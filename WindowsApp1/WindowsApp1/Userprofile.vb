@@ -31,6 +31,9 @@ Public Class UserProfile
 
         '
         DGV.Rows.Add("25", "15", "Khalil@melki.com", "Tunisie", "10:30")
+        nom.Text += " " + Form1.user1.nom
+        prenom.Text += "" + Form1.user1.prenom
+
     End Sub
 
     '"Gestionnaire d'événements pour le clic sur une cellule de DataGridView
