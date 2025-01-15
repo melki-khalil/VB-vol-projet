@@ -30,6 +30,16 @@ Public Class Form2widget
     End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles btn_achat.Click
-        Form1.Placepage(TicketBuying)
+        If Form1.user1.passportId = "" Then
+            MessageBox.Show("you need to connect first.", "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        Else
+            Form1.Placepage(TicketBuying)
+        End If
+
+    End Sub
+
+    Private Sub Form2widget_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+
     End Sub
 End Class

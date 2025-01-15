@@ -62,19 +62,19 @@ Partial Class Form1
         'ProfileToolStripMenuItem
         '
         Me.ProfileToolStripMenuItem.Name = "ProfileToolStripMenuItem"
-        Me.ProfileToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.ProfileToolStripMenuItem.Size = New System.Drawing.Size(166, 26)
         Me.ProfileToolStripMenuItem.Text = "profile"
         '
         'MonBilleToolStripMenuItem
         '
         Me.MonBilleToolStripMenuItem.Name = "MonBilleToolStripMenuItem"
-        Me.MonBilleToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.MonBilleToolStripMenuItem.Size = New System.Drawing.Size(166, 26)
         Me.MonBilleToolStripMenuItem.Text = "mon bille"
         '
         'LoToolStripMenuItem
         '
         Me.LoToolStripMenuItem.Name = "LoToolStripMenuItem"
-        Me.LoToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.LoToolStripMenuItem.Size = New System.Drawing.Size(166, 26)
         Me.LoToolStripMenuItem.Text = "deconncter"
         '
         'VolsToolStripMenuItem

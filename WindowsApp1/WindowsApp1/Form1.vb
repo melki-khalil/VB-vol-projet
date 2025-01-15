@@ -24,10 +24,9 @@ Public Class Form1
     End Structure
     <Serializable> Public Structure buille
         Dim idB As Integer
-        Dim vol_id As Integer
+        Dim vol_id As String
         Dim passportId As String
         Dim distination As String
-
         Dim prix As Double
 
     End Structure
@@ -67,22 +66,10 @@ Public Class Form1
     End Sub
 
     Private Sub Form1main_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Dim filePath As String = "vol.bin"
 
 
-        Dim filePath3 As String = "buille.bin"
-        Using fileStream As New FileStream(filePath3, FileMode.Open)
-            Dim formatter As New BinaryFormatter()
 
-        End Using
-        If user1.passportId = "" Then
-            ProfileToolStripMenuItem.Visible = False
-            MonBilleToolStripMenuItem.Visible = False
-            LoToolStripMenuItem.Visible = False
-        Else
-            ProfileToolStripMenuItem.Visible = True
-            MonBilleToolStripMenuItem.Visible = True
-            LoToolStripMenuItem.Visible = True
-        End If
         Placepage(Form2widget)
     End Sub
 
@@ -107,6 +94,14 @@ Public Class Form1
 
     Private Sub MonBilleToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles MonBilleToolStripMenuItem.Click
         Placepage(UserTicket)
+    End Sub
+
+    Private Sub LoToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles LoToolStripMenuItem.Click
+        user1 = Nothing
+    End Sub
+
+    Private Sub VolsToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles VolsToolStripMenuItem.Click
+        Placepage(TicketBuying)
     End Sub
 End Class
 

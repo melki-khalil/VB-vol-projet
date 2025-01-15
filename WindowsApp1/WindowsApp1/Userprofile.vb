@@ -11,6 +11,11 @@ Public Class UserProfile
         passport.Text += ": " + Form1.user1.nom
         nom.Text += ": " + Form1.user1.nom
         prenom.Text += ": " + Form1.user1.prenom
+        If Form1.user1.role = "a" Then
+            ticket.Visible = False
+        Else
+            addAdmin.Visible = False
+        End If
 
     End Sub
 

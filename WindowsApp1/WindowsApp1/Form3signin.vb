@@ -39,10 +39,13 @@ Public Class Form3signin
                     If pasport.Text = user.passportId Then
                         If pw.Text = user.MP Then
                             Form1.user1 = user
+
+
+
                             Form1.Placepage(Form2widget)
 
                         Else
-                            MessageBox.Show("L'utilisteur si deja exist", "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error)
+                            MessageBox.Show("Le passport ou mot de pass n'est pas valid", "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error)
 
                             Exit For
                         End If

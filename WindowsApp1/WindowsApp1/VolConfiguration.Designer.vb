@@ -22,26 +22,26 @@ Partial Class VolConfiguration
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
+        Me.DGVC = New System.Windows.Forms.DataGridView()
         Me.id = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.depart = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.distination = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.places = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.prix = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.DGVC, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'DataGridView1
+        'DGVC
         '
-        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.id, Me.depart, Me.distination, Me.places, Me.prix})
-        Me.DataGridView1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.DataGridView1.Location = New System.Drawing.Point(0, 0)
-        Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.RowHeadersWidth = 51
-        Me.DataGridView1.RowTemplate.Height = 24
-        Me.DataGridView1.Size = New System.Drawing.Size(1010, 513)
-        Me.DataGridView1.TabIndex = 0
+        Me.DGVC.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DGVC.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.id, Me.depart, Me.distination, Me.places, Me.prix})
+        Me.DGVC.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.DGVC.Location = New System.Drawing.Point(0, 0)
+        Me.DGVC.Name = "DGVC"
+        Me.DGVC.RowHeadersWidth = 51
+        Me.DGVC.RowTemplate.Height = 24
+        Me.DGVC.Size = New System.Drawing.Size(1010, 513)
+        Me.DGVC.TabIndex = 0
         '
         'id
         '
@@ -83,15 +83,15 @@ Partial Class VolConfiguration
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1010, 513)
-        Me.Controls.Add(Me.DataGridView1)
+        Me.Controls.Add(Me.DGVC)
         Me.Name = "VolConfiguration"
         Me.Text = "VolConfiguration"
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.DGVC, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
 
-    Friend WithEvents DataGridView1 As DataGridView
+    Friend WithEvents DGVC As DataGridView
     Friend WithEvents id As DataGridViewTextBoxColumn
     Friend WithEvents depart As DataGridViewTextBoxColumn
     Friend WithEvents distination As DataGridViewTextBoxColumn

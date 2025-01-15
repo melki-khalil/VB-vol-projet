@@ -1,6 +1,7 @@
 ﻿Imports System.Data.SqlClient
 Imports System.IO
 Imports System.Runtime.Serialization.Formatters.Binary
+Imports WindowsApp1.Form1
 
 Public Class UserTicket
 
@@ -17,14 +18,25 @@ Public Class UserTicket
         }
         DGV.Columns.Add(deleteButtonColumn)
         DGV.Dock = DockStyle.Fill
-        ' Add sample data to the DataGridView
-        Dim ticket1 As Form1.buille
-        ticket1.idB = 125
-        ticket1.vol_id = 515
-        ticket1.passportId = "25413625"
-        ticket1.distination = "France"
-        ticket1.prix = 521.0
-        DGV.Rows.Add(ticket1.idB, ticket1.vol_id, ticket1.passportId, ticket1.distination, ticket1.prix)
+        ' Read the data from the file and add rows to the DataGridView
+        Dim ticketList As New List(Of buille)()
+        Dim filePath3 As String = "buille.bin"
+        Using fileStream As New FileStream(filePath3, FileMode.Open)
+            Dim formatter As New BinaryFormatter()
+            While fileStream.Position < fileStream.Length
+                Dim ticket As buille = CType(formatter.Deserialize(fileStream), buille)
+                ticketList.Add(ticket)
+            End While
+
+
+            For Each ticket As buille In ticketList
+                If Form1.user1.passportId = ticket.passportId Then
+                    DGV.Rows.Add(ticket.idB, ticket.vol_id, ticket.passportId, ticket.distination, ticket.prix)
+                End If
+
+
+            Next
+        End Using
 
     End Sub
 
