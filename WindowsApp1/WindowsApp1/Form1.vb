@@ -16,10 +16,10 @@ Public Class Form1
     End Structure
     <Serializable> Public Structure vol
         Dim vol_id As Integer
-        Dim vol As String
+
         Dim depart As String
         Dim destination As String
-        Dim temp As DateTime
+        Dim places As Integer
         Dim prix As Double
     End Structure
     <Serializable> Public Structure buille

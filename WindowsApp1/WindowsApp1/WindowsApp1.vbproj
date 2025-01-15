@@ -141,6 +141,12 @@
     <Compile Include="reserve.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="TicketBuying.Designer.vb">
+      <DependentUpon>TicketBuying.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TicketBuying.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Userprofile.Designer.vb">
       <DependentUpon>Userprofile.vb</DependentUpon>
     </Compile>
@@ -193,6 +199,18 @@
     <Compile Include="UserTicket.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="VolConfiguration.Designer.vb">
+      <DependentUpon>VolConfiguration.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VolConfiguration.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VolCreationvb.Designer.vb">
+      <DependentUpon>VolCreationvb.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VolCreationvb.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Form3signin.resx">
@@ -216,11 +234,20 @@
     <EmbeddedResource Include="reserve.resx">
       <DependentUpon>reserve.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="TicketBuying.resx">
+      <DependentUpon>TicketBuying.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Userprofile.resx">
       <DependentUpon>Userprofile.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserTicket.resx">
       <DependentUpon>UserTicket.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VolConfiguration.resx">
+      <DependentUpon>VolConfiguration.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VolCreationvb.resx">
+      <DependentUpon>VolCreationvb.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

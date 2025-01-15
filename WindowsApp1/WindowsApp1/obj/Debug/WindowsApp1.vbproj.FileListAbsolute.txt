@@ -50,3 +50,6 @@ C:\Users\ranar\Documents\2IG\VB-vol-projet\WindowsApp1\WindowsApp1\obj\Debug\Win
 C:\Users\ranar\Documents\2IG\VB-vol-projet\WindowsApp1\WindowsApp1\bin\Debug\aeroport.accdb
 C:\Users\ranar\Documents\2IG\VB-vol-projet\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.reserve.resources
 C:\Users\ranar\Documents\2IG\VB-vol-projet\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.UserTicket.resources
+C:\Users\ranar\Documents\2IG\VB-vol-projet\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.VolCreationvb.resources
+C:\Users\ranar\Documents\2IG\VB-vol-projet\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.TicketBuying.resources
+C:\Users\ranar\Documents\2IG\VB-vol-projet\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.VolConfiguration.resources
