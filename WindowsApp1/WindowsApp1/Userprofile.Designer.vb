@@ -33,6 +33,7 @@ Partial Class UserProfile
         Me.Client = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.distination = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.time = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.ticket = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         CType(Me.DGV, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -40,6 +41,7 @@ Partial Class UserProfile
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.Color.LightGray
+        Me.Panel1.Controls.Add(Me.ticket)
         Me.Panel1.Controls.Add(Me.edit)
         Me.Panel1.Controls.Add(Me.mail)
         Me.Panel1.Controls.Add(Me.prenom)
@@ -51,9 +53,9 @@ Partial Class UserProfile
         '
         'edit
         '
-        Me.edit.Location = New System.Drawing.Point(179, 405)
+        Me.edit.Location = New System.Drawing.Point(33, 405)
         Me.edit.Name = "edit"
-        Me.edit.Size = New System.Drawing.Size(62, 33)
+        Me.edit.Size = New System.Drawing.Size(184, 53)
         Me.edit.TabIndex = 3
         Me.edit.Text = "changer ton donné"
         Me.edit.UseVisualStyleBackColor = True
@@ -136,6 +138,15 @@ Partial Class UserProfile
         Me.time.Name = "time"
         Me.time.Width = 125
         '
+        'ticket
+        '
+        Me.ticket.Location = New System.Drawing.Point(41, 203)
+        Me.ticket.Name = "ticket"
+        Me.ticket.Size = New System.Drawing.Size(184, 53)
+        Me.ticket.TabIndex = 4
+        Me.ticket.Text = "voir mon tickes"
+        Me.ticket.UseVisualStyleBackColor = True
+        '
         'UserProfile
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -163,4 +174,5 @@ Partial Class UserProfile
     Friend WithEvents Client As DataGridViewTextBoxColumn
     Friend WithEvents distination As DataGridViewTextBoxColumn
     Friend WithEvents time As DataGridViewTextBoxColumn
+    Friend WithEvents ticket As Button
 End Class

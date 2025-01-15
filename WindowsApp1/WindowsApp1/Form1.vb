@@ -25,8 +25,9 @@ Public Class Form1
     <Serializable> Public Structure buille
         Dim idB As Integer
         Dim vol_id As Integer
-        Dim passportId As Integer
-        Dim temp As DateTime
+        Dim passportId As String
+        Dim distination As String
+
         Dim prix As Double
 
     End Structure
@@ -119,6 +120,10 @@ Public Class Form1
 
     Private Sub ProfileToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ProfileToolStripMenuItem.Click
         Placepage(UserProfile)
+    End Sub
+
+    Private Sub MonBilleToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles MonBilleToolStripMenuItem.Click
+        Placepage(UserTicket)
     End Sub
 End Class
 

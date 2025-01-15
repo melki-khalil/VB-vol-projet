@@ -14,6 +14,7 @@ Public Class UserProfile
         .Name = "DeleteButton"
     }
         DGV.Columns.Add(deleteButtonColumn)
+
     End Sub
 
     Private Sub UserProfile_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -49,4 +50,7 @@ Public Class UserProfile
         End If
     End Sub
 
+    Private Sub ticket_Click(sender As Object, e As EventArgs) Handles ticket.Click
+        Form1.Placepage(UserTicket)
+    End Sub
 End Class
