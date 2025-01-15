@@ -10,7 +10,7 @@ Public Class Form4make_account
 
     Private Sub submit_Click(sender As Object, e As EventArgs) Handles submit.Click
 
-        Dim insertClient = True
+        Dim insertClient As Boolean = True
         Dim addClient As Boolean = True
         'conditions
         If String.IsNullOrEmpty(nom.Text) Then
@@ -51,6 +51,7 @@ Public Class Form4make_account
             MessageBox.Show("Passport code n'est pas vaalide", "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error)
             addClient = False
         End If
+        'end conditions
         If addClient Then
             Dim newUser As utilisateur
             newUser.passportId = passport.Text
@@ -83,6 +84,7 @@ Public Class Form4make_account
                 Next
                 If insertClient Then
                     formatter.Serialize(fileStream, newUser)
+                    Form1.Placepage(Form3signin)
                 End If
             End Using
 

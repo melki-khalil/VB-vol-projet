@@ -27,7 +27,7 @@ Partial Class Form3signin
         Me.submit = New System.Windows.Forms.Button()
         Me.pw = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.email = New System.Windows.Forms.TextBox()
+        Me.pasport = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
@@ -39,7 +39,7 @@ Partial Class Form3signin
         Me.Panel1.Controls.Add(Me.submit)
         Me.Panel1.Controls.Add(Me.pw)
         Me.Panel1.Controls.Add(Me.Label2)
-        Me.Panel1.Controls.Add(Me.email)
+        Me.Panel1.Controls.Add(Me.pasport)
         Me.Panel1.Controls.Add(Me.Label1)
         Me.Panel1.Location = New System.Drawing.Point(259, 15)
         Me.Panel1.Margin = New System.Windows.Forms.Padding(4)
@@ -89,14 +89,14 @@ Partial Class Form3signin
         Me.Label2.TabIndex = 8
         Me.Label2.Text = "mot de passe"
         '
-        'email
+        'pasport
         '
-        Me.email.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.email.Location = New System.Drawing.Point(243, 59)
-        Me.email.Margin = New System.Windows.Forms.Padding(4)
-        Me.email.Name = "email"
-        Me.email.Size = New System.Drawing.Size(132, 30)
-        Me.email.TabIndex = 7
+        Me.pasport.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.pasport.Location = New System.Drawing.Point(243, 59)
+        Me.pasport.Margin = New System.Windows.Forms.Padding(4)
+        Me.pasport.Name = "pasport"
+        Me.pasport.Size = New System.Drawing.Size(132, 30)
+        Me.pasport.TabIndex = 7
         '
         'Label1
         '
@@ -105,9 +105,9 @@ Partial Class Form3signin
         Me.Label1.Location = New System.Drawing.Point(65, 59)
         Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(60, 25)
+        Me.Label1.Size = New System.Drawing.Size(87, 25)
         Me.Label1.TabIndex = 6
-        Me.Label1.Text = "Email"
+        Me.Label1.Text = "passport"
         '
         'Form3signin
         '
@@ -128,7 +128,7 @@ Partial Class Form3signin
     Friend WithEvents submit As Button
     Friend WithEvents pw As TextBox
     Friend WithEvents Label2 As Label
-    Friend WithEvents email As TextBox
+    Friend WithEvents pasport As TextBox
     Friend WithEvents Label1 As Label
     Friend WithEvents signup As Label
 End Class

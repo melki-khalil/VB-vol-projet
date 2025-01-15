@@ -53,7 +53,7 @@ Public Class Form1
     'end of the function section
     ' public variables
     Public user1 As utilisateur
-    Public MainUser As utilisateur
+
 
     'end of section
     'call form method
@@ -68,13 +68,7 @@ Public Class Form1
 
     Private Sub Form1main_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Dim filePath As String = "vol.bin"
-        Dim user As utilisateur
-        user.passportId = "20254896"
-        user.nom = "mazniw"
-        user.prenom = "salah"
-        user.email = "MazniSAlah@gmail.com"
-        user.MP = "password"
-        user.role = "a"
+
 
         Using fileStream As New FileStream(filePath, FileMode.Open)
             Dim formatter As New BinaryFormatter()
@@ -86,7 +80,7 @@ Public Class Form1
             Dim formatter As New BinaryFormatter()
 
         End Using
-        If user.email = "" Then
+        If user1.passportId = "" Then
             ProfileToolStripMenuItem.Visible = False
             MonBilleToolStripMenuItem.Visible = False
             LoToolStripMenuItem.Visible = False
